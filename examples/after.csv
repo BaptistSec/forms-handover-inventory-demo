@@ -1,0 +1,7 @@
+component,reference,current_owner,target_owner,status,evidence
+form,FORM-B,charity-account,charity-account,confirmed,SYNTHETIC-CHECK-A
+response_sheet,SHEET-B,charity-account,charity-account,confirmed,SYNTHETIC-CHECK-B
+uploads,,,,not_used,No file-upload questions in this synthetic design
+notifications,NOTICE-B,coordinator,coordinator,confirmed,SYNTHETIC-CHECK-C
+automation,,,,not_used,No automation in this synthetic design
+entry_points,POSTER-B,coordinator,coordinator,confirmed,SYNTHETIC-CHECK-D
