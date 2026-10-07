@@ -35,13 +35,18 @@ If the form uses Apps Script, Google's tool for running code, check who set up i
 
 The Python tool reads a CSV file, a text file with rows and columns separated by commas. After downloading and unpacking the demonstration, open a terminal, the window where you type commands, in its main folder. Run:
 
+Swipe code sideways if a line is cut off.
+
 ```sh
-python3 check_inventory.py examples/before.csv
+python3 check_inventory.py \
+examples/before.csv
 ```
 
 The first file contains a made-up, incomplete list. It contains a form change still waiting to finish and a response spreadsheet whose change cannot proceed, an email-alert check marked complete but without a record of what was checked, and no row listing the ways people reach the form.
 
 This is what the actual run printed. The labels in the result are the code's field names: open_items means something remains unfinished; platform_verified:false means Google was not checked. component names the part of the change; entry_points means ways people reach the form; notifications means email alerts; evidence means a record of a real check.
+
+The list still has gaps: four items need attention. No Google account checks were made.
 
 ```json
 {
@@ -67,10 +72,13 @@ These rules find missing entries, not false statements. A made-up check label st
 Run:
 
 ```sh
-python3 check_inventory.py examples/after.csv
+python3 check_inventory.py \
+examples/after.csv
 ```
 
 Actual output:
+
+The list meets the written-record rules. No Google account checks were made.
 
 ```json
 {
