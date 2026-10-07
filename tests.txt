@@ -1,0 +1,19 @@
+test_blocked (test_check_inventory.Tests) ... ok
+test_cli_status (test_check_inventory.Tests) ... ok
+test_complete_not_platform_verified (test_check_inventory.Tests) ... ok
+test_confirmed_no_evidence (test_check_inventory.Tests) ... ok
+test_duplicate (test_check_inventory.Tests) ... ok
+test_form_required (test_check_inventory.Tests) ... ok
+test_headers (test_check_inventory.Tests) ... ok
+test_invalid_status (test_check_inventory.Tests) ... ok
+test_missing_component (test_check_inventory.Tests) ... ok
+test_no_owner (test_check_inventory.Tests) ... ok
+test_not_used_reason (test_check_inventory.Tests) ... ok
+test_pending (test_check_inventory.Tests) ... ok
+test_unchanged (test_check_inventory.Tests) ... ok
+test_unknown (test_check_inventory.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.006s
+
+OK
