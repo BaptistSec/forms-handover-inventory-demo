@@ -8,9 +8,13 @@ The two supplied examples are made up. Their owners, status labels and evidence 
 
 You need Python installed. Open a command window in the folder containing `check_inventory.py`, then run:
 
+Swipe code sideways if a line is cut off.
+
 ```sh
-python3 check_inventory.py examples/before.csv
-python3 check_inventory.py examples/after.csv
+python3 check_inventory.py \
+examples/before.csv
+python3 check_inventory.py \
+examples/after.csv
 python3 -m unittest -v
 ```
 
