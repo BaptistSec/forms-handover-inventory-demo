@@ -1,0 +1,22 @@
+{
+  "record_check": "open_items",
+  "issues": [
+    {
+      "component": "entry_points",
+      "issue": "missing component"
+    },
+    {
+      "component": "form",
+      "issue": "pending"
+    },
+    {
+      "component": "notifications",
+      "issue": "missing confirmed fields: evidence"
+    },
+    {
+      "component": "response_sheet",
+      "issue": "blocked"
+    }
+  ],
+  "platform_verified": false
+}
