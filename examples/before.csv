@@ -1,0 +1,6 @@
+component,reference,current_owner,target_owner,status,evidence
+form,FORM-A,volunteer-personal,charity-account,pending,DOC-A
+response_sheet,SHEET-A,volunteer-personal,charity-account,blocked,DOC-B
+uploads,,,,not_used,No file-upload questions in this synthetic design
+notifications,NOTICE-A,volunteer-personal,coordinator,confirmed,
+automation,,,,not_used,No automation in this synthetic design
